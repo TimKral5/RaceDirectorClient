@@ -1,0 +1,53 @@
+{
+    "tokens": {
+        "admin": "5502",
+        "constructor": "5502",
+        "driver": "5502"
+    },
+    "default": {
+        "session_data": {
+            "status": "Under Preparation",
+            "type": "Race",
+            "laps": "0",
+            "current_lap": "0",
+            "info": ""
+        },
+
+        "drivers": [
+            {
+                "name":"Tim Kral",
+                "short":"KRA",
+                "number":"11",
+                "token":"1001",
+                "team":""
+            },
+            {
+                "name":"Max Mustermann",
+                "short":"MUS",
+                "number":"22",
+                "token":"1002",
+                "team":""
+            }
+        ],
+        "teams": [
+            {
+                "token": "1000", 
+                "obj": {
+                    "name": "Test-Team", 
+                    "driver1": {
+                        "name": "Tim Kral", 
+                        "short": "KRA", 
+                        "number": "11", 
+                        "team": ""
+                    }, 
+                    "driver2": {
+                        "name": "Max Mustermann", 
+                        "short": "MUS", 
+                        "number": "22", 
+                        "team": ""
+                    } 
+                }
+            }
+        ]
+    }
+}

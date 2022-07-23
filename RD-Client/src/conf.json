@@ -1,0 +1,8 @@
+{
+    "data": {
+        "teams" : [
+            {"name": "Mercedes"},
+            {"name": "Red Bull"}
+        ]
+    }
+}
